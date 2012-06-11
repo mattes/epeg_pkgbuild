@@ -1,4 +1,5 @@
 epeg_pkgbuild
 =============
 
-package build description file sourced by makepkg to create a binary package from source
+https://wiki.archlinux.org/index.php/Creating_Packages
+https://wiki.archlinux.org/index.php/PKGBUILD
