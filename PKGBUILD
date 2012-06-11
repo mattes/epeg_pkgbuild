@@ -12,13 +12,15 @@ source=("https://github.com/mattes/epeg/tarball/v${pkgver}")
 md5sums=('07ae7bd430e7688403e44797a22723bf')
 
 build() {
-  cd "${srcdir}/${pkgname}-${pkgver}"
+  cd "${srcdir}"
+  cd `ls | grep epeg`
   ./configure --prefix=/usr
   make
 }
 
 package() {
-  cd "${srcdir}/${pkgname}-${pkgver}"
+  cd "${srcdir}"
+  cd `ls | grep epeg`
   make DESTDIR="${pkgdir}" install
 }
 
