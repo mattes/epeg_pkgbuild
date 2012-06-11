@@ -7,7 +7,7 @@ url="http://www.enlightenment.org/"
 arch=('any')
 license=('MIT')
 depends=('libjpeg-turbo')
-install='epeg.install'
+# install='epeg.install'
 source=("https://github.com/mattes/epeg/tarball/v${pkgver}")
 md5sums=('07ae7bd430e7688403e44797a22723bf')
 
