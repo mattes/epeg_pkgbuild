@@ -8,7 +8,7 @@ arch=('any')
 license=('MIT')
 depends=('libjpeg-turbo')
 install='epeg.install'
-source=("http://www.server.tld/${pkgname}-${pkgver}.tar.gz")
+source=("https://github.com/mattes/epeg/tarball/v${pkgver}")
 md5sums=('a0afa52d60cea6c0363a2a8cb39a4095')
 
 build() {
