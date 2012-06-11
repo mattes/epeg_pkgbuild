@@ -1,4 +1,4 @@
-# Maintainer: Matt <somebody[at]foo[dot]tld>
+# Maintainer: Matt <matt005[at]gmail[dot]com>
 pkgname=epeg
 pkgver=0.9.1.042
 pkgrel=1
@@ -9,7 +9,7 @@ license=('MIT')
 depends=('libjpeg-turbo')
 install='epeg.install'
 source=("https://github.com/mattes/epeg/tarball/v${pkgver}")
-md5sums=('a0afa52d60cea6c0363a2a8cb39a4095')
+md5sums=('07ae7bd430e7688403e44797a22723bf')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
